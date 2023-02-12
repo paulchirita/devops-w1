@@ -50,5 +50,5 @@ def get_student_by_id(student_id):  # noqa: E501
     :rtype: Student
     """
     if isinstance(student_id, numbers.Number):
-        return get_student_by_id(student_id)
+        return get_by_id(student_id)
     return 500, 'error'
